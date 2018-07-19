@@ -1,0 +1,32 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "CTab.h"
+#include "CSozSt.h"
+#include "CAvtor.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TTab *Tab;
+//---------------------------------------------------------------------------
+__fastcall TTab::TTab(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TTab::IExitClick(TObject *Sender)
+{
+Tab->Close();
+Avtor->Close();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TTab::IDodClick(TObject *Sender)
+{
+SozSt->Show();
+Tab->Visible=false;
+}
+//---------------------------------------------------------------------------
+

@@ -1,0 +1,162 @@
+//---------------------------------------------------------------------------
+
+#ifndef CSozStH
+#define CSozStH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Controls.Presentation.hpp>
+#include <FMX.ListBox.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.StdCtrls.hpp>
+#include <FMX.Types.hpp>
+#include "DBAccess.hpp"
+#include "MemDS.hpp"
+#include "Uni.hpp"
+#include <Data.Bind.Components.hpp>
+#include <Data.Bind.DBScope.hpp>
+#include <Data.Bind.EngExt.hpp>
+#include <Data.Bind.Grid.hpp>
+#include <Data.DB.hpp>
+#include <Fmx.Bind.DBEngExt.hpp>
+#include <Fmx.Bind.Editors.hpp>
+#include <Fmx.Bind.Grid.hpp>
+#include <FMX.Grid.hpp>
+#include <FMX.Layouts.hpp>
+#include <System.Bindings.Outputs.hpp>
+#include <System.Rtti.hpp>
+//---------------------------------------------------------------------------
+class TSozSt : public TForm
+{
+__published:	// IDE-managed Components
+	TLabel *Label1;
+	TComboBox *Ntab;
+	TLabel *Label2;
+	TComboBox *Kmisc;
+	TImage *IBack;
+	TButton *Button1;
+	TGroupBox *GAlkogol;
+	TButton *Gorilka;
+	TButton *koniak;
+	TButton *Balzam;
+	TButton *Viski;
+	TButton *Glintvein;
+	TButton *Beer;
+	TButton *Vuna;
+	TButton *Djun;
+	TButton *IgrVuna;
+	TButton *Tekila;
+	TButton *BackAlcogol;
+	TButton *Rom;
+	TGroupBox *GKokteili;
+	TButton *Amfetamin;
+	TButton *Meduza;
+	TButton *Xirosima;
+	TButton *Bond;
+	TButton *SexPlag;
+	TButton *Goluba;
+	TButton *DjunTonic;
+	TButton *PinaKolada;
+	TButton *Moxito;
+	TButton *TekilaSan;
+	TButton *BackKokteili;
+	TButton *B53;
+	TGroupBox *GNapoi;
+	TButton *Sik;
+	TButton *Fresh;
+	TButton *Yzvar;
+	TButton *Lumonad;
+	TButton *Shaianska;
+	TButton *Borjomi;
+	TButton *Kvas;
+	TButton *BackNapoi;
+	TGroupBox *GSalatu;
+	TButton *Grezkiy;
+	TButton *Figaro;
+	TButton *Cezar;
+	TButton *Italia;
+	TButton *ZForeli;
+	TButton *Osinni;
+	TButton *Paradiz;
+	TButton *Fruktovui;
+	TButton *Olive;
+	TButton *Ovozevui;
+	TButton *BackSalatu;
+	TButton *Vinigred;
+	TGroupBox *GSoku;
+	TButton *Apelsun2;
+	TButton *Apelsun1;
+	TButton *Apple2;
+	TButton *Ananas1;
+	TButton *Granat2;
+	TButton *Mult2;
+	TButton *Sherry1;
+	TButton *Mult1;
+	TButton *Apple1;
+	TButton *Sherry2;
+	TButton *BackSoku;
+	TButton *Ananas2;
+	TGroupBox *GMenu;
+	TButton *TeaCofe;
+	TButton *Napoi;
+	TButton *Alkogol;
+	TButton *Kokteli;
+	TButton *Piza;
+	TButton *DoBeer;
+	TButton *Garniru;
+	TButton *Desert;
+	TButton *Sypu;
+	TButton *OsnStr;
+	TButton *Salatu;
+	TButton *Zakysku;
+	TGroupBox *GTeaCofe;
+	TButton *Amerukano;
+	TButton *Espreso;
+	TButton *Kapuzino;
+	TButton *Late;
+	TButton *Kakao;
+	TButton *FruktTea;
+	TButton *TravTea;
+	TButton *GarChokolad;
+	TButton *GreenTea;
+	TButton *BlackTea;
+	TButton *BackZK;
+	TButton *Mokazino;
+	TStringGrid *Vuvod;
+	TUniQuery *UVuvod;
+	TBindingsList *BindingsList1;
+	TBindSourceDB *BindSourceDB2;
+	TLinkGridToDataSource *LinkGridToDataSourceBindSourceDB2;
+	TUniSQL *SStvSt;
+	TUniSQL *SDelete;
+	TUniSQL *SStvorenna;
+	void __fastcall TeaCofeClick(TObject *Sender);
+	void __fastcall BackZKClick(TObject *Sender);
+	void __fastcall IBackClick(TObject *Sender);
+	void __fastcall AmerukanoClick(TObject *Sender);
+	void __fastcall BlackTeaClick(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall EspresoClick(TObject *Sender);
+	void __fastcall FruktTeaClick(TObject *Sender);
+	void __fastcall GarChokoladClick(TObject *Sender);
+	void __fastcall GreenTeaClick(TObject *Sender);
+	void __fastcall KakaoClick(TObject *Sender);
+	void __fastcall KapuzinoClick(TObject *Sender);
+	void __fastcall LateClick(TObject *Sender);
+	void __fastcall MokazinoClick(TObject *Sender);
+	void __fastcall TravTeaClick(TObject *Sender);
+	void __fastcall AlkogolClick(TObject *Sender);
+	void __fastcall NapoiClick(TObject *Sender);
+	void __fastcall KokteliClick(TObject *Sender);
+	void __fastcall SalatuClick(TObject *Sender);
+	void __fastcall SikClick(TObject *Sender);
+	void __fastcall BackSokuClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TSozSt(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TSozSt *SozSt;
+//---------------------------------------------------------------------------
+#endif

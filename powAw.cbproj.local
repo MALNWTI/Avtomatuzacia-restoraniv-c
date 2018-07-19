@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.271,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.589,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.694,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.129,=E:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,E:\Diplom\COpTab.h=E:\Diplom\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.779,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.340,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.760,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.388,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.154,F:\Diplom\Unit1.fmx=F:\Diplom\CSozSt.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,F:\Diplom\Unit1.fmx=F:\Diplom\CKilTov.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,F:\Diplom\Unit1.fmx=F:\Diplom\CDelTabl.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.960,D:\Diplom\CAvtor.h=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,E:\Diplom\AAAW.cbproj=E:\Diplom\AAAWcbproj.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.960,D:\Diplom\CAvtor.cpp=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,E:\Diplom\COpTab.fmx=E:\Diplom\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.154,F:\Diplom\Unit1.h=F:\Diplom\CSozSt.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,F:\Diplom\Unit1.h=F:\Diplom\CDelTabl.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.280,=E:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.101,E:\Diplom\CTab.cpp=E:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,F:\Diplom\CVuvodTabl.h=F:\Diplom\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,F:\Diplom\Unit1.h=F:\Diplom\CKilTov.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.796,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.690,=F:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.628,=F:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,F:\Diplom\Unit1.cpp=F:\Diplom\CKilTov.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.627,=F:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.299,=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.834,E:\Diplom\A^3W.cbproj=E:\Diplom\AAAW.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.889,=F:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,E:\Diplom\COpTab.cpp=E:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,F:\Diplom\CVuvodTabl.fmx=F:\Diplom\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,E:\Diplom\powAw.cbproj=E:\Diplom\A^3W.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.630,E:\Diplom\COpTab.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.153,F:\Diplom\Unit1.cpp=F:\Diplom\CSozSt.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,F:\Diplom\Unit1.cpp=F:\Diplom\CDelTabl.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,F:\Diplom\CVuvodTabl.cpp=F:\Diplom\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.519,D:\Diplom\PAAAW.h=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.101,E:\Diplom\CTab.h=E:\Diplom\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.101,E:\Diplom\CTab.fmx=E:\Diplom\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.309,E:\Diplom\pow(A)w.cbproj=E:\Diplom\powAw.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.783,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.805,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.275,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.223,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.608,D:\Diplom\AAAWcbproj.cbproj=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.920,=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,E:\Diplom\pow(A)w.cbproj=E:\Diplom\powAw.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.960,D:\Diplom\CAvtor.fmx=C:\Users\MALNWTI\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2017.06.06 21:51:22.573,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+    <Transaction>2017.06.06 22:04:47.544,C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a=</Transaction>
+    <Transaction>2017.06.06 22:23:59.123,=C:\Program Files (x86)\Devart\UniDAC for RAD Studio 10\Lib\Android\libmyprovider230.a</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="YT9118RNFS"/>
+	</ActiveMobileDevice>
+</BorlandProject>

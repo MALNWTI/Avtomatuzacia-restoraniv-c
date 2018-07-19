@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+
+#ifndef CTabH
+#define CTabH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+//---------------------------------------------------------------------------
+class TTab : public TForm
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+	__fastcall TTab(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TTab *Tab;
+//---------------------------------------------------------------------------
+#endif

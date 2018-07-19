@@ -1,0 +1,55 @@
+//---------------------------------------------------------------------------
+
+#ifndef CVuvodTablH
+#define CVuvodTablH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include "DBAccess.hpp"
+#include "MemDS.hpp"
+#include "Uni.hpp"
+#include <Data.DB.hpp>
+#include <FMX.Controls.Presentation.hpp>
+#include <FMX.Grid.hpp>
+#include <FMX.Layouts.hpp>
+#include <FMX.ListBox.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.StdCtrls.hpp>
+#include <FMX.Types.hpp>
+#include <System.Rtti.hpp>
+#include <Data.Bind.Components.hpp>
+#include <Data.Bind.DBScope.hpp>
+#include <Data.Bind.EngExt.hpp>
+#include <Data.Bind.Grid.hpp>
+#include <Fmx.Bind.DBEngExt.hpp>
+#include <Fmx.Bind.Editors.hpp>
+#include <Fmx.Bind.Grid.hpp>
+#include <System.Bindings.Outputs.hpp>
+#include <FMX.Edit.hpp>
+//---------------------------------------------------------------------------
+class TVuvodTabl : public TForm
+{
+__published:	// IDE-managed Components
+	TLabel *Label1;
+	TLabel *Label2;
+	TImage *IBack;
+	TStringGrid *Vuvod;
+	TUniQuery *UVuvod;
+	TBindSourceDB *BindSourceDB1;
+	TBindingsList *BindingsList1;
+	TLinkGridToDataSource *LinkGridToDataSourceBindSourceDB1;
+	TTimer *Timer1;
+	TUniQuery *UKilkist;
+	TEdit *ENt;
+	TEdit *EKm;
+	void __fastcall Timer1Timer(TObject *Sender);
+	void __fastcall IBackClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TVuvodTabl(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TVuvodTabl *VuvodTabl;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,73 @@
+object DelTabl: TDelTabl
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 200
+  ClientWidth = 300
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFA33B5E5
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFFFF8B8F
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  FormStyle = Popup
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    StyledSettings = []
+    Position.X = 80.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Gabriola'
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claWhite
+    Text = #1053#1086#1084#1077#1088' '#1057#1090#1086#1083#1072':'
+  end
+  object NambTable: TComboBox
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6')
+    Position.X = 80.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'KilTovarivStyle1'
+    TabOrder = 0
+  end
+  object Button1: TButton
+    StyledSettings = []
+    Position.X = 88.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #1042#1080#1076#1072#1083#1080#1090#1080
+    TextSettings.Font.Family = 'Calibri'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TintColor = claDarkgray
+    OnClick = Button1Click
+  end
+  object SDelete: TUniSQL
+    Connection = Avtor.Connect
+    Left = 24
+    Top = 140
+  end
+end

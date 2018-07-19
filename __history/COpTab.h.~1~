@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+
+#ifndef COpTabH
+#define COpTabH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+//---------------------------------------------------------------------------
+class TOpTab : public TForm
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+	__fastcall TOpTab(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TOpTab *OpTab;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,86 @@
+object KilTov: TKilTov
+  Left = 0
+  Top = 0
+  Caption = 'KilTov'
+  ClientHeight = 200
+  ClientWidth = 300
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = x7F33B5E5
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFF23063B
+      Offset = 0.403726696968078600
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  Position = DesktopCenter
+  FormStyle = Popup
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    StyledSettings = []
+    Position.X = 80.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Gabriola'
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claWhite
+    Text = #1050#1110#1083#1100#1082#1110#1089#1090#1100':'
+  end
+  object KilTovariv: TComboBox
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10')
+    ItemIndex = 0
+    Position.X = 80.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'KilTovarivStyle1'
+    TabOrder = 0
+  end
+  object Button1: TButton
+    StyledSettings = []
+    Position.X = 88.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #1044#1086#1076#1072#1090#1080
+    TextSettings.Font.Family = 'Calibri'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TintColor = claDarkgray
+    OnClick = Button1Click
+  end
+  object SZapKil: TUniSQL
+    Connection = Avtor.Connect
+    Left = 272
+    Top = 112
+  end
+  object SDelete: TUniSQL
+    Connection = Avtor.Connect
+    Left = 8
+    Top = 124
+  end
+end

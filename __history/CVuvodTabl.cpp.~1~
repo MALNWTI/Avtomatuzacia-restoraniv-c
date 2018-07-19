@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "CVuvodTabl.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma link "DBAccess"
+#pragma link "MemDS"
+#pragma link "Uni"
+#pragma resource "*.fmx"
+TVuvodTabl *VuvodTabl;
+//---------------------------------------------------------------------------
+__fastcall TVuvodTabl::TVuvodTabl(TComponent* Owner)
+	: TForm(Owner)
+{
+UVuvod->Active=true;
+}
+//---------------------------------------------------------------------------
+void __fastcall TVuvodTabl::Timer1Timer(TObject *Sender)
+{
+Timer1->Enabled=tr
+UVuvod->Execute();
+}
+//---------------------------------------------------------------------------
